@@ -1,4 +1,23 @@
-v .1 
+v .11
+-revisions to stock tech tree rebalance
+	-Moved the Mk1-2 Command Pod from Advanced Exploration to Space Exploration
+	-Moved the Mk1 Lander Can from Space Exploration to Landing
+	-Moved the MK2 Lander Can from Advanced Exploration to Advanced Landing
+	-Moved the Launch Escape System from Advanced Exploration to Space Exploratoin
+	-Moved the RoveMax Model S2 from Space Exploration to Advanced Exploration
+	-Moved the Probodobodyne RoveMate from Space Exploration to Advaned Exploration
+-Tech Tree Rebalancing for Deadly Reentry Continued
+	-Moved the 0.625m Heatshield to Survivability
+	-Moved the 1.25m Heatshield to Survivability
+	-Moved the Heat Shield for Mk 1-2 Pod to spaceExploration
+	-Moved the 3.75m Heatshield to Composites
+	-Moved the UP13 Decoupler to Survivability
+	-Moved the UP20 Decoupler (2M) to General Construction
+	-Moved the UP25 Decoupler to Advanced Construction
+	-Moved the UP30 Deocupler (3M) to Specialized Construction
+	-Moved the UP40 Decoupler (4M) to Advanced Metalworks
+
+v .10
 -Stock science experiments have had reward and transmissions values reworked
 	-all experiments give 60% of available science the first time with diminishing returns thereafter
 	-Crew Reports
