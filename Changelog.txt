@@ -1,0 +1,149 @@
+v .1 
+-Stock science experiments have had reward and transmissions values reworked
+	-all experiments give 60% of available science the first time with diminishing returns thereafter
+	-Crew Reports
+		-biome specific everywhere except high orbit
+	-EVA Reports
+		-only biome specific while landed or splashed
+		-total science decreased
+	-Mystery Goo Observation
+		-total science decreased
+		-data size increased
+		-tranmits at 10%
+	-Surface Sample
+		-total science decreased
+		-data size increased
+		-transmits at 10% when initiated by anything except a kerbal on EVA
+	-Materials Study
+		-total science increased
+		-data size increased
+		-transmits at 20%
+	-Temperature Scan
+		-total science decreased
+		-can be performed anywhere
+		-transmits at 100%
+	-Atmospheric Pressure Scan
+		-biome specific while flying low and landed
+		-total science decreased
+		-transmits at 100%
+	-Seismic Scan
+		-total science decreased
+		-data size decreased
+		-transmits at 100%
+	-Gravity Scan
+		-total science decreased
+		-data size decreased
+		-transmits at 100%
+	-Atmosphere Analysis
+		-data size decreased
+		-transmits at 100%
+-Mobile Processing Lab MPL-LG-2 has been reworked
+	-mass increased
+	-kerbal capacity increased
+	-science transmission boost increased
+	-power consumption during processing increased
+-New experiment "Low Gravity Environment Experiments" added
+	-Science comparable to gravity/seismic scan
+	-is performed by the Mobile Processing Lab
+	-Transmits at 100%
+-New experiment called "Probe Situation Report" added
+	-low science amount
+	-transmits at 100%
+	-can be performed by any properly configured probe core part
+-Tech tree rebalance for Stock Rebalance
+	-Launch Escape Tower (0.625) moved to survivability
+-Tech tree rebalance for all stock parts
+	-COMMAND PODS AND PROBES
+		-Moved the Mk1 Cockpit to start
+		-Moved the Command Pod Mk1 to Survivability
+		-Moved the Mk2 Cockpit to Survivability
+		-Moved the Mk1-2 Command Pod to Advanced Exploration
+		-Moved the PPD-10 Hitchiker Storage Container to Advanced Exploration
+		-Moved the Mk1 Lander Can to Space Exploration
+		-Moved the Mk2 Lander-can to Advanced Exploration
+		-Moved the PPD-12 Cupola Module to Composites
+		-Moved the Stayputnik Mk. 1 to Survivability
+		-Moved the Probodobodyne HECS to Science Tech
+		-Moved the Porbodobodyne OKTO to Science Tech
+		-Moved the Probodobodyne QBE to Unmanned Tech
+		-Moved the Probodobodyne OKTO2 to Precision Engineering
+		-Moved the Advanced S.A.S Module, Large to Large Control
+	-UTILITY
+		-Moved the XM-G50 Radial Air Intake to start
+		-Moved the Clamp-O-Tron Docking Port to Advanced Construction
+		-Moved the Clamp-O-Tron Shielded Docking Port to Actuators
+		-Moved the Clamp-O-Tron Jr. to Precision Engineering
+		-Moved the Inline Clamp-O-Tron to Advanced MetalWorks
+		-Moved the Small Gear Bay to start
+		-Moved the LT-1 Landing Struts to Landing
+		-Moved the Z-100 Rechargeable Battery Pack to start
+		-moved the Z-200 Rechargeable Battery Pack to Science Tech
+		-Moved the Z-400 Rechargeable Battery to Electrics
+		-Moved the Telus Mobility Enhancer to Space Exploration
+		-Moved the Mk16 Parachute to Survivability
+		-Moved the Mk16-XL Parachute to Advanced Landing
+		-Moved the Pegasus I Mobility Enhancer to start
+		-Moved the Telus-LV Bay Mobility Enhancer to Actuators
+		-Moved the PB-NUK Radioisotope Thermoelectric Generator to Advanced Electrics
+		-Moved the SP-W 2x3 Photovoltaic Panels to Composites
+		-Moved the SP-L 1x6 Photovoltaic Panels to Composites
+		-Moved the Launch Escape System to Advanced Exploration
+		-Moved the RoveMax Model S2 to Space Exploration
+	-SCIENCE
+		-Moved the Thermometer to start
+		-Moved the Barometer to start and reduced its cost
+		-Moved the Science Jr to Actuators
+		-Moved the Mobile Processing Lab MPL-LG-2 to Field Science
+		-Moved the Mystery Goo Containment Unit to Science Tech
+		-Moved the Double-C Seismic Accelerometer to Science Tech
+		-Moved the Sensor Array Computing Nose Cone to Electronics
+		-Moved the Communotron 88-88 to Meta-Materials
+	-PROPULSION
+		-Moved the FL-T200 Fuel Tank to Basic Rocketry
+		-Moved the FL-T800 Fuel Tank to General Construction
+		-Moved the Rockomax x200-32 Fuel Tank to Advanced Construction
+		-Moved the Rockomax x200-16 Fuel Tank to Advanced Construction
+		-Moved the Rockomax Jumbo-64 Fuel Tank to Specialized Construction
+		-Moved the Kerbodyne S3-3600 Tank to Advanced MetalWorks
+		-Moved the Kerbodyne S3-7200 Tank to Advanced MetalWorks
+		-Moved the Kerbodyne S3-14400 Tank to Advanced MetalWorks
+		-Moved the Stratus-V Cylindrified Monopropellant Tank to Specialized Construction
+		-Moved the FL-R1 RCS Fuel Tank to Advanced MetalWorks
+		-Moved the Mk1 Fuselage - Jet Fuel to start
+		-Moved the Mk2 Fuselage to Specialized Construction
+		-Moved the Mk2 to size 1 Adapter to Specialized Construction
+		-Moved the Basic Jet Engine to start
+		-Moved LV-T30 Liquid Engine to Basic Rocketry
+		-Moved the LV-909 Liquid Fuel Engine to General Rocketry
+		-Moved the Rockomax 48-7s to Advanced Rocketry
+		-Moved the Sepratron I to start
+		-Moved the R.A.P.I.E.R. Engine to Experimental Rocketry
+	-AERODYNAMICS
+		-Moved the AV-T1 Winglet to start
+		-Moved the AV-R8 Winglet to start
+		-Moved the Tail Fin to start
+		-Moved the Delta-Deluxe Winglet to Flight Control
+		-Moved the Aerodynamic Nose Cone to start
+		-Moved the NCS Adapter to Advanced MetalWorks
+		-Moved the Delta Wing to Advanced Aerodynamics
+	-STRUCTURAL
+		-Moved the Structural Fuselage to start
+		-Moved the Kerbodyne ADTP-2-3 to Advanced MetalWorks
+		-Moved the Cubic Octagonal Strut to General Construction
+		-Moved the Octagonal Strut to General Construction
+		-Moved the TVR-200 Stack Bi-Coupler to General Construction
+		-Moved the TVR-2160C Mk2 Stack Quad-Coupler to Advanced Construction
+		-Moved the TVR-200L Stack Bi-Adapter to specialized Construction
+		-Moved the TVR-300L Stack Tri-Adapter to Specialized Construction
+		-Moved the TVR-400L Stack Quad-Adapter to Specialized Construction
+		-Moved the TT18-A Launch Stability Enhancer to Stability
+		-Moved the TT-38K Radial Decoupler to General Construction
+		-Moved the TR-38-D to Composites
+		-Moved the FL-A10 Adapter to Advanced Construction
+		-Moved the Small Hardpoint to Specialized Construction
+		-Moved the Structural Pylon to Composites
+		-Moved the TR-2C Stack Separator to Composites
+		-Moved the TR-18D Stack Separator to Composites
+		-Moved the TR-XL Stack Separator to Composites
+		-Moved the Rockomax HubMax Multi-Point Connector to Advanced MetalWorks
+		-Moved the Probodobodyne RoveMate to Space Exploration
