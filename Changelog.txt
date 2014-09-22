@@ -1,7 +1,27 @@
+v.21
+-Tech Tree Rebalancing for Procedural Fairings
+	-Moved the Fairing Base to General Construction
+	-Moved the Interstage Fairing Adapter to General Construction
+	-Moved the Fairing Base Ring to General Construction
+	-Moved the Egg-Shaped Fuselage Fairing to General Construction
+	-Moved the Conic Fuselage Fairing to General Construction
+	-Moved the Egg-Shaped Fairing to General Construction
+	-Moved the Conic Fairing to General Construction
+	-Moved size upgrades for fairing bases
+		-Aerodynamic Systems upgrade moved to Specialized Construction
+		-Heavy Aerodynamics upgrade moved to Meta-Materials
+		-Experimental Aerodynamics upgrade moved to Nanolathing
+	-Moved size upgrades for thruster plates
+		-Very Heavy Rocketry upgrade moved to Meta-Materials
+		-Experimental Rocketry Upgrade moved to Nanolathing
+
 v .20
 -Moved over to using MM's new capacity to handle variables
 	-KSAEAVars.cfg houses global variables for the mod to make balancing easier
-	
+	-Total science and the initial worth of an experiment are  both adjustable this way
+	-xmitDataScalar is adjustable this way and has been split into two categories
+		-sensor experiments are experiments like temperature scans, etc
+		-sample return experiments are experiments like mystery goo observation
 -Revisions to the Stock Science Rebalance
 	-Crew Reports
 		-total science decreased
