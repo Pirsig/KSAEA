@@ -1,5 +1,34 @@
+v .20
+-Moved over to using MM's new capacity to handle variables
+	-KSAEAVars.cfg houses global variables for the mod to make balancing easier
+	
+-Revisions to the Stock Science Rebalance
+	-Crew Reports
+		-total science decreased
+	-EVA Reports
+		-total science decreased
+	-Mystery Goo Observation
+		-total science decreased
+		-transmission increased to 15%
+	-Surface Sample
+		-total science decreased
+		-data size increased
+		-transmission increased to 15%
+	-Materials Study
+		-total science decreased
+	-Temperature Scan
+		-total science increased
+	-Atmospheric Pressure Scan
+		-total science decreased
+	-Seismic Scan
+		-total science decreased
+	-Gravity Scan
+		-total science decreased
+	-Atmosphere Analysis
+		-total science decreased
+
 v .11
--revisions to stock tech tree rebalance
+-Revisions to stock tech tree rebalance
 	-Moved the Mk1-2 Command Pod from Advanced Exploration to Space Exploration
 	-Moved the Mk1 Lander Can from Space Exploration to Landing
 	-Moved the MK2 Lander Can from Advanced Exploration to Advanced Landing
