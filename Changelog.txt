@@ -1,4 +1,14 @@
 v.21
+-Tech Tree Rebalancing for Remote Tech 2
+	-Moved the Reflectron DP-10 to Start
+	-Moved the Communotron 32 to Field Science
+	-Moved the CommTech EXP-VR-2T to Advanced Science Tech
+	-Moved the Reflectron SS-5, Reflectron KR-7 to Space Exploration
+	-Moved the Reflectron LL-5, Reflectron KR-14 to Electronics
+	-Moved the Reflectron GX-128 to Experimental Science Tech
+	-Moved the CommTech-1 to Meta Materials (Only when RT2 is installed)
+	-Moved the Communotron-88 to Advanced Exploration (Only when RT2 is installed)
+	-Moved the Communotron 16 to Science Tech (Only when RT2 is installed)
 -Tech Tree Rebalancing for Procedural Fairings
 	-Moved the Fairing Base to General Construction
 	-Moved the Interstage Fairing Adapter to General Construction
@@ -14,6 +24,11 @@ v.21
 	-Moved size upgrades for thruster plates
 		-Very Heavy Rocketry upgrade moved to Meta-Materials
 		-Experimental Rocketry Upgrade moved to Nanolathing
+-KSAEA Science Experiments rebalanced
+	-Experiments added by KSAEA are now controlled by the global balance variables
+	-Probe Situation Report total science decreased
+	-Low Gravity Environment Experiments total science decreased
+-Removed modification to PresMat Barometer's cost
 
 v .20
 -Moved over to using MM's new capacity to handle variables
