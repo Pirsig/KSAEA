@@ -1,60 +1,89 @@
 Kerbal Space and Atmospheric Exploration Agency Tech Tree and Science Rebalance
 
+So what is it?
+
 This is a set of Module Manager configs designed to make the game a bit more challenging and to change the
-tech tree progress into something more loosely realistic, starting with aircraft and introducing probes
-earlier than stock.  You can easily skip the aircraft portion if that's no fun for you, all the basic rocket
-stuff comes within the first two tiers and you can easily acquire the science required without ever leaving
-the runway/launchpad.  It's cheaty, but I won't tell anyone.
+tech tree progress into something more loosely realistic, starting with aircraft and introducing probes earlier
+than stock. You can skip the aircraft portion if that's no fun for you, all the basic rocket stuff comes within
+the first two tiers and you can easily acquire the science required without ever leaving the runway/launchpad.
+It's cheaty, but I won't tell anyone.
 
-I also wanted to match parts to nodes in a more logical way.  Many parts have moved from their stock tiers
-and nodes or stayed in the same tier but have changed nodes.  Some nodes also have very few parts or only
-one when not fleshed out with mods.  This wasn't originally intentional, but I decided it made sense.  Some
-breakthroughs in science have very specific implications, some are very broad and far reaching.
+I also wanted to match parts to nodes in a more logical way. Many parts have moved from their stock tiers and
+nodes or stayed in the same tier but have changed nodes. Some nodes also have very few parts or only one when
+not fleshed out with mods. This wasn't originally intentional, but I decided it made sense. Some breakthroughs
+in science have very specific implications, some are very broad and far reaching.
 
-I also wanted to make use of the extra nodes at the end of the tree.  If you're not aware, Squad has included
+I also wanted to make use of the extra nodes at the end of the tree. If you're not aware, Squad has included
 nodes at the end of the tree that require 1000 science to research, they do not show in R&D unless there's
-actually parts assigned to them.  Only the RAPIER engine is up in the this tier if you're running only stock
-parts.  As more mod configs are added, the top tier should flesh out more.
+actually parts assigned to them. Only the RAPIER engine is up in the this tier if you're running only stock
+parts. As more mod configs are added, the top tier should flesh out more.
 
-Science has also been rebalanced to be more challenging and a bit slower progressing.  You get a large chunk
-of science the first time doing an experiment with some more useful diminishing returns, encouraging
-'confirmation' of your scientific findings.  Data amounts have also been reworked.  In most cases they've
-been increased, in a few they've been decreased.  This was based on Science Revisited by CaptRobau, but most
-of the values have been reworked.
+Science has also been rebalanced a bit, but total science values are mostly no longer affected by this mod as
+Squad added the functionality to change this in game with the difficulty settings introduced in .25. You get a
+fair amount of science the first time doing an experiment (60% currently) with diminishing returns thereafter,
+mimicking initial discovery and confirmation of scientific findings. Data amounts have also been reworked. This
+was based on Science Revisited by CaptRobau, but most of the values have been reworked.
 
-Sensor experiments like the temperature scan, now transmit 100% of their value.  This will affect any mod
-part using these modules as well.  On the flip side of this, sample return type experiments like the mystery
-goo experiment, have had their transmission values lowered even further to force either a proper return
-mission or use of the lab.  To go with this, the lab's boost to transmission value has been increased.  The
-lab also consumes more power during processing though and none of these sample return experiments will
-transmit at quite 100% even after processing.
+Sensor experiments like the temperature scan, now transmit 100% of their value. This will affect any mod part
+using these modules as well. On the flip side of this, sample return type experiments like the mystery goo
+experiment, have had their transmission values lowered even further to force either a proper return mission or
+use of the lab. To go with this, the lab's boost to transmission value has been increased. The lab also consumes
+more power during processing though and most sample return experiments will not transmit at quite 100% even
+after processing.
 
-Two new experiments have also been added.  "Low Gravity Environment Experiments" are available on the Mobile
-Processing Lab and provide science comparable to a seismic or gravity scan.  It transmits at only 40% to
-encourage you to process the experiment in the lab to get 100% transmission value.  "Probe Situation Report"
-has been added to all properly configured probe parts and provides a very small amount of science, even less
-than crew reports.  It does transmit at 100% however, and is meant to be the telemetry and operational data
-you're ostensibly using to pilot the probe.
+Two new experiments have also been added. "Low Gravity Environment Experiments" are available on the Mobile
+Processing Lab and provide science comparable to a seismic or gravity scan. It transmits at only 40% to
+encourage you to process the experiment in the lab to get 100% transmission value. "Probe Situation Report" has
+been added to all properly configured probe parts and provides a very small amount of science, even less than
+crew reports. It does transmit at 100% however, and is meant to be the telemetry and operational data you're
+ostensibly using to pilot the probe.
+
+All the non shielded solar panels are no longer retractable to help give some differentiation. All solar panels
+using the default squad module will now also use the curve created by CaptRobau in Science Revisited to follow
+the inverse-square law
+
+Additional Info
 
 I approached this with a philosophy of wanting the mod to play nicely with other mods as much as possible.
 Everything is done within the confines of the stock Squad defined tech tree, no new nodes have actually been
-added or values for the nodes changed.  While tree placement might be odd for parts in a mod I haven't made
+added or values for the nodes changed. While tree placement might be odd for parts in a mod I haven't made
 configs for, nothing *should* break in any mod because of this one.
 
-I've also tried to put together everything in such a way that it can be easily tailored to your personal
-needs, separating different aspects of the pack into different configs so they can easily be removed
-individually.  They are also commented to be easily understandable and searchable for your own modification.
-All comments use the part name displayed in game, allowing you to search for parts both by their actual part
-name as well as the display name.
+I've also tried to put together everything in such a way that it can be easily tailored to your personal needs,
+separating different aspects of the pack into different configs so they can easily be removed individually.
+They are also commented to be easily understandable and searchable for your own modification. All comments use
+the part name displayed in game, allowing you to search for parts both by their actual part name as well as the
+display name.
 
-I started this without having any idea about Stupid_Chris' Stock ReBalance project, and originally had some
-of the same things implemented alongside the tech tree rebalance.  This included the solar panel changes,
-rebalancing of probe cores, and a few other odds and ends.  Fortunately, as I started looking at rebalancing
-batteries and all kinds of stuff, I found SRB, which does everything I was thinking and more, but doesn't
-touch the tech tree or science at all.  The mod had started just as rethinking science and the tech tree,
-and I could focus solely on that again.  Because of this, these configs are designed with the idea in mind
-that you'll also be using SRB.  It's not required, and everything should function fine without it, but I
-recommend it.
+I started this without having any idea about Stupid_Chris' Stock ReBalance project, and originally had some of
+the same things implemented alongside the tech tree rebalance. This included the solar panel changes,
+rebalancing of probe cores, and a few other odds and ends. As I was looking at getting deeper down the rabbit
+hole into rebalancing many more parts, I found SRB which prompted me to remove most of that stuff from the mod.
+I've decided to back away from the idea that this is designed specifically with SRB in mind. I've re-implemented
+some of those original ideas to offer a much simpler version of some of what SRB has to offer, while still
+maintaining compatibility if people choose to use SRB.
+
+Why?
+
+Because no other tech tree mod did what I actually wanted and Tree Loader seemed to be a complete mess to me.
+Sure it functioned, but hitting an outside database, poor maintenance of the plugin, and it's eventual decline
+into not being actively maintained left a very sour taste in my mouth. I'm grateful for many of the wonderful
+plugins R4m0n built the foundation for, Tree Loader was a major miss for me though. There's plugins out there
+now taking tree loader's place and they're fixing some issues, but I'd still have to rely on an unproven mod to
+stay maintained.
+
+On the other hand it's pretty clear Module Manager isn't going anywhere. It also has the lowest possibility for
+any sort of conflict with another mod. Basically, the best way to make sure this plays nice with everyone's
+setup is to use MM configs and type out a lot of stuff manually. Most mod authors already know how to use MM as
+well and can easily make configs for their mods to follow this rebalance if they wish to do so without having
+to learn anything extra really.
+
+Taking this approach of not using any plugins outside MM itself does set certain limits. I can't modify EVA
+kerbals for example, which is why they still transmit surface samples at the stock %. Though I've decided in
+my head that the extra data is the kerbal's description of the sample . I also can't change the research values
+for nodes in the tree or add new nodes, but honestly this just causes more room for compatibility issues. In
+the end, it creates different approaches to a similar problem many of us have with not being satisfied with the
+current tech/science setup and it's up to you which approach you like best.
 
 INSTALLATION: Unzip all contents to your Kerbal Space Program/GameData folder.
 
@@ -63,13 +92,17 @@ available to you, even if it's now moved to a node you've not researched.  This 
 the persistence file saves the parts you've unlocked and can only be remedied by manually changing the
 persistence file or starting a new game.
 
-Module Manager is required for this mod to function.
+Module Manager (http://forum.kerbalspaceprogram.com/threads/55219-Module-Manager) is required for this mod
+to function and is included in the download.  Do not extract it if you have a more recent version.
 
 This rebalance builds on code and concepts from Science Revisted by Captrobau (http://forum.kerbalspaceprogram.com/threads/65033-Science-Revisited-New-and-improved-ways-to-do-science-1-3-1)
-And is designed for use with Stock ReBalance by Stupid_Chris (http://forum.kerbalspaceprogram.com/threads/75272-0-23-x-Stock-Rebalance-Project-v1-3-19-04-14)
 
 The Following mods have had compatability configs written:
 
-
+Deadly Reentry Continued - http://forum.kerbalspaceprogram.com/threads/54954
+Procedural Fairings - http://forum.kerbalspaceprogram.com/threads/39512
+Remote Tech - http://forum.kerbalspaceprogram.com/threads/83305
+Stock ReBalance - http://forum.kerbalspaceprogram.com/threads/75272
+TAC Life Support - http://forum.kerbalspaceprogram.com/threads/40667
 
 License: CC BY NC SA
