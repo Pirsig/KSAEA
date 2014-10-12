@@ -1,4 +1,21 @@
-v.21
+v .30
+-Added Solar Panel Rebalance
+	-All solar panels using Squads default module now use Capt Robau's power curve (If SRB is not installed)
+	-OX-4W 2x3 Photovoltaic Panels are no longer retractable (If SRB is not installed)
+	-OX-4L 1x6 Photovoltaic Panels are no longer retractable (If SRB is not installed)
+	-Gigantor XL Solar Array is no longer retractable
+-Tech Tree Rebalancing for Tac Life Support
+	-Moved the .75m Life Support HexCans to Precision Engineering
+	-Moved the 1.5m Life Support HexCans to Specialized Construction
+	-Moved the 3m Life Support HexCans to Meta-Materials
+	-Moved the 1.25m Life Support Containers to Advanced Construction
+	-Moved the 2.5m Life Support Containers to Advanced MetalWorks
+	-Moved the TACLS Water Purifier to Advanced Electrics
+	-Moved the TACLS Water Purifier, Large to Advanced Electrics
+	-Moved both sizes of the TACLS Sabatier Recyler to Specialized Electrics
+	-Moved both sizes of the TACLS Carbon Extractor to Specialized Electrics
+	-Moved the TACLS Air Filter to Aerospace Tech
+	-Prevents TACLS from moving OX-STAT Photovoltaic Panels placement in tech tree
 -Tech Tree Rebalancing for Remote Tech 2
 	-Moved the Reflectron DP-10 to Start
 	-Moved the Communotron 32 to Field Science
@@ -29,6 +46,8 @@ v.21
 	-Probe Situation Report total science decreased
 	-Low Gravity Environment Experiments total science decreased
 -Removed modification to PresMat Barometer's cost
+-Removed most balancing of total science from experiments since it's now controllable from in game difficulty
+	-SurfaceSample experiment is still worth less than stock.
 
 v .20
 -Moved over to using MM's new capacity to handle variables
