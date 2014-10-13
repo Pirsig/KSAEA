@@ -56,12 +56,19 @@ the part name displayed in game, allowing you to search for parts both by their 
 display name.
 
 I started this without having any idea about Stupid_Chris' Stock ReBalance project, and originally had some of
-the same things implemented alongside the tech tree rebalance. This included the solar panel changes,
-rebalancing of probe cores, and a few other odds and ends. As I was looking at getting deeper down the rabbit
-hole into rebalancing many more parts, I found SRB which prompted me to remove most of that stuff from the mod.
-I've decided to back away from the idea that this is designed specifically with SRB in mind. I've re-implemented
-some of those original ideas to offer a much simpler version of some of what SRB has to offer, while still
-maintaining compatibility if people choose to use SRB.
+the same things implemented alongside the tech tree rebalance.  This included solar panel changes, rebalancing
+of probe cores, and a few other odds and ends.  As I was looking at getting deeper down the rabbit hole into
+rebalancing many more parts, I found SRB which prompted me to remove most of that stuff from the mod.  I've
+since decided to back away from the idea that this is designed specifically with SRB in mind and re-implemented
+some of those original ideas.
+
+Because of MM run order, anything SRB does should run after me, so if your using SRB changes to the same
+properties *should* take precedence over mine.  As it's not currently updated for .25 yet and I probably won't
+be running it myself any longer, I'd love some feedback on whether this actually ends up being the case, or if
+I need to come up with a special patch or set of instructions for use in conjunction with SRB.  For the same
+reasons, if you want to use SRB, but want my values for antenna transmission and such you'll need to delete the
+relevant patches from SRB.  When SRB updates to .25 I'll probably take a look at it and make a patch to handle
+this instead.
 
 Why?
 
@@ -85,15 +92,18 @@ for nodes in the tree or add new nodes, but honestly this just causes more room 
 the end, it creates different approaches to a similar problem many of us have with not being satisfied with the
 current tech/science setup and it's up to you which approach you like best.
 
-INSTALLATION: Unzip all contents to your Kerbal Space Program/GameData folder.
+Module Manager (http://forum.kerbalspaceprogram.com/threads/55219-Module-Manager) is required for this mod
+to function and is included in the download.  Do not extract it if you have a more recent version.
+
+INSTALLATION
+
+1. Delete any previous version of KSAEA or older version of Module Manager.  
+2. Unzip all contents to your Kerbal Space Program/GameData folder.
 
 NOTE: If you're using this with an in progress save, any part you have already researched will still be
 available to you, even if it's now moved to a node you've not researched.  This has to do with the way
 the persistence file saves the parts you've unlocked and can only be remedied by manually changing the
 persistence file or starting a new game.
-
-Module Manager (http://forum.kerbalspaceprogram.com/threads/55219-Module-Manager) is required for this mod
-to function and is included in the download.  Do not extract it if you have a more recent version.
 
 This rebalance builds on code and concepts from Science Revisted by Captrobau (http://forum.kerbalspaceprogram.com/threads/65033-Science-Revisited-New-and-improved-ways-to-do-science-1-3-1)
 
