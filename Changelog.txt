@@ -1,3 +1,144 @@
+v .4
+-Added several part rescales
+	-Added Smaller Gear Bay
+	-Added 1.25m Launch Escape System
+	-Added 0.625m "MX" Parts System
+		-MX-A Adapter
+			-adapter for 0.625m to 1.25m parts
+		-MX Nose Cone
+		-MX-LC Launch Stability System
+			-smaller, weaker launch clamp
+			-Doesn't display correctly on first load in VAB, but functions correctly
+		-MX-12 "Pancake" Fuel Tank
+		-MX-25 Fuel Tank
+		-MX-50 Fuel Tank
+		-MX-100 Fuel Tank
+		-MX-S55 Solid Fuel Booster
+		-MX-S105 SOlid Fuel Booster
+-Fixed placement and scale for the Aerodynamic Nose Cone
+-Revisions to the stock Tech Tree Rebalance
+	-Moved the Command Pod Mk1 to Space Exploration
+	-Moved the Mk1 Inline Cockpit to Start
+	-Moved the Mk1-2 Command Pod to Advanced Exploration
+	-Moved the Mk2 Cockpit to Aerospace Tech
+	-Moved the Mk2 Inline Cockpit to Aerospace Tech
+	-Moved the Mk3 Cockpit to Electronics
+	-Moved the PPD-10 Hitchiker Storage Container to Specialzed Construction
+	-Moved the MK2 Crew Cabin to Aerospace Tech
+	-Moved the MK2 Drone Core to Automation
+	-Moved the Advanced Inline Stabilizer to Specialized Control
+	-Moved the Structural Intake to nanolathing
+	-Moved the Engine Nacelle to Hypersonic Flight
+	-Moved the Mk2 Clamp-O-Tron to Nanolathing
+	-Moved the Z-1k Rechargeable Battery Bank to Large Electrics
+	-Moved the Z-4k Rechargeable Battery Bank to Large Electrics
+	-Moved the Telus Mobility Enhancer to Actuators
+	-Moved the Gigantor XL Solar Array to Specialized Electrics
+	-Moved the Launch Escape System to Advanced Exploration
+	-Moved the Mk2 Cargo Bay CRG-04 to Meta-Materials
+	-Moved the Mk2 Cargo Bay CRG-08 to Meta-Materials
+	-Moved the Oscar-B Fuel Tank to Start
+	-Moved the FL-T100 Fuel Tank to General Construction
+	-Moved the FL-T200 Fuel Tank to General Construction
+	-Moved the FL-T400 Fuel Tank to General Construction
+	-Moved the FL-T800 Fuel Tank to Advanced Construction
+	-Moved the Kerbodyne S3-3600 Tank to Meta-Materials
+	-Moved the Kerbodyne S3-7200 Tank to Meta-Materials
+	-Moved the Kerbodyne S3-14400 Tank to Meta-Materials
+	-Moved the Stratis-V Roundified Monopropellant Tank to General Construction
+	-Moved the FL-R1 RCS Fuel Tank to Specialized Construction
+	-Moved the FL-R10 RCS Fuel Tank to General Construction
+	-Moved the FL-R25 RCS Fuel Tank to Advanced Construction
+	-Moved the Mk2 Liquid Fuel Fuselage Short to Meta-Materials
+	-Moved the Mk2 LF+O Fuselage Short to Meta-Materials
+	-Moved the Mk2 Monopropellant Tank to Meta-Materials
+	-Moved the Mk2 Liquid Fuel Fuselage to Meta-Materials
+	-Moved the Mk2 LF+O Fuselage to Meta-Materials
+	-Moved the Mk2 Bicoupler to Meta-Materials
+	-Moved the Mk3 to Mk2 Adapter to Advanced Metalworks
+	-Moved the Mk3 Fuselage to Advanced Metalworks
+	-Moved the TurboJet Engine to Supersonic Flight
+	-Moved the Vernor Engine to Advanced Flight Control
+	-Moved the O-10 MonoPropellant Engine to Advanced Rocketry
+	-Moved the LV-1 Liquid Fuel Engine to Start
+	-Moved the LV-1R Liquid Fuel Engine to Basic Rocketry
+	-Moved LV-T30 Liquid Fuel Engine to Heavy Rocketry
+	-Moved LV-T45 Liquid Fuel Engine to Heavy Rocketry
+	-Moved the Rockomax 24-77 to Advanced Rocketry
+	-Moved the Rockomax 48-7s to General Rocketry
+	-Moved the Rockomax Mark 55 Radial Mount Liquid Engine to Advanced MetalWorks
+	-Moved the Rockomax "Skipper" Liquid Engine to Heavier Rocketry
+	-Moved the LFB KR-1x2 to Very Heavy Rocketry
+	-Moved the S3 KS-25x4 Engine Cluster to Experimental Rocketry
+	-Moved the RT-10 Solid Fuel Booster to Advanced Rocketry
+	-Moved the Rockomax BACC Solid Fuel Booster to Heavy Rocketry
+	-Moved the S1 SRB-KD25k to Heavier Rocketry
+	-Moved the Place-Anywhere 7 Linear RCS Port Engine to Flight Control
+	-Moved the Standard Canard to Supersonic Flight
+	-Moved the Advanced Canard to Advanced Aerodynamics
+	-Moved the AV-T1 Winglet to Stability
+	-Moved the AV-R8 Winglet to Stability
+	-Moved the Swept Wings to Supersonic Flight
+	-Moved the Standard Nosecone to Composites
+	-Moved the Protective Rocket Nosecone Mk7 to Advanced Metalworks
+	-Moved the Wing Connector Type A to Heavy Aerodynamics
+	-Moved the Wing Connector Type B to Heavy Aerodynamics
+	-Moved the Wing Connector Type C to Advanced Aerodynamics
+	-Moved the Wing Connector Type D to Start
+	-Moved the Wing Connector Type E to Start
+	-Moved the Small Delta Wing to Aerodynamics
+	-Moved the Delta Wing to Heavy Aerodynamics
+	-Moved the Structural Wing Type A to Heavy Aerodynamics
+	-Moved the Structural Wing Type B to Heavy Aerodynamics
+	-Moved the Structural Wing Type C to Supersonic Flight
+	-Moved the Structural Wing Type D to Start
+	-Moved the Swept Wing Type A to Supersonic Flight
+	-Moved the Swept Wing Type B to Heavy Aerodynamics
+	-Moved the Wing Strake to High Altitude Flight
+	-Moved the Elevon 2 to Flight Control
+	-Moved the Elevon 3 to Flight Control
+	-Moved the Elevon 4 to Start
+	-Moved the Elevon 5 to Specialized Control
+	-Moved the Mk2 to 1.25m Adapter to Meta-Materials
+	-Moved the Kerbodyne ADTP-2-3 to Meta-Materials
+	-Moved the Mk2 to 1.25m Adapter Long to Meta-Materials
+	-Moved the TT18-A Launch Stability Enhancer to General Construction
+	-Moved the TR-2V Stack Decoupler to Basic Rocketry
+	-Moved the TR-18A Stack Decoupler to Advanced Construction
+	-Moved the Rockomax Brand Decoupler to Specialized Construction
+	-Moved the TR-38-D to Meta-Materials
+-Revisions to Deadly Reentry tech tree rebalance
+	-Moved the 1.25m Heatshield to Advanced Construction
+	-Moved the Heat Sheild for Mk 1-2 Pod to Advanced Exploration
+	-Moved the 3.75m Heatshield to Meta-Materials
+	-Moved the 6.25m Inflatable Heatshield to Aerospace Tech
+	-Moved the UP13 Decoupler Advanced Construction
+	-Moved the UP20 Decoupler (2M) Specialized Construction
+	-Moved the UP25 Decoupler to Specialized Construction
+	-Moved the UP30 Decoupler (3M) Composites
+	-Moved the UP40 Decoupler (4M) Meta-Materials
+-Revisions to Tac Life Support tech tree rebalance
+	-Moved the 3m Life Support HexCans to Advanced Metalworks
+	-Moved the 0.625m Life Support Containers to Advanced Construction
+	-Moved the 1.25m Life Support Containers to Specialzed Construction
+	-Moved the 2.5m Life Support Containers to Meta-Materials
+-Revisions to Procedural Fairings tech tree rebalance
+	-Moved the Thrust Plate Multi-Adapter to Basic Rocketry
+	-Moved the Interstage Fairing Adapter to Advanced Construction
+	-Moved the Egg-Shaped Fuselage Fairing to Advanced Construction
+	-Moved the Conic Fuselage Fairing to Advanced Construction
+	-Fairing size progression reworked
+		-starts with 0.5m to 1.0m
+		-Aerodynamics upgrades to 1.5m
+		-Advanced Aerodynamics upgrades to 3.0m
+		-Heavy Aerodynamics upgrades to 5.0m
+		-Experimental Aerodynamics upgrades to 8.0m
+	-Thrust plate size progression reworked
+		-starts with 0.5m to 1.0m
+		-General Construction unpgrades to 1.5m
+		-Specialized Construction upgrades to 3.0m
+		-Meta-Materials upgrades to 6.0m
+
 v .30
 -Added Solar Panel Rebalance
 	-All solar panels using Squads default module now use Capt Robau's power curve (If SRB is not installed)
