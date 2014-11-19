@@ -1,3 +1,36 @@
+v .41
+-Tech Tree Rebalancing for DMagic Orbital Science
+	-Moved the Magnetometer Boom to start
+	-Moved the Surface Ablation Laser Light Imager to Electronics
+	-Moved the ExoKerbol Core Drill to Science Tech
+	-Moved the Orbital Telescope to Precision Engineering
+	-Moved the Multi-Spectral Imaging Platform to Advanced Exploration
+	-Moved the Anomalous Signal Sensor to Advanced Science Tech
+	-Moved the RPWS Antenna to Space Exploration
+	-Moved the Solar Particle Collector to Advanced Science Tech
+	-Moved the Soil Moisture Sensor to Experimental Science
+-Tech Tree Rebalancing for Kerbal Attachment System
+	-Increased research cost for the Container Type A to 1200
+	-Moved the Container Type B to Specialzed Construction and increased research cost to 1200
+	-Increased research cost for the Container Bay Type A/B to 1000
+	-Moved the Radial Connector Port to Advanced MetalWorks and increased research cost to 9500
+	-Moved the Stack Connector Port (0.5m) to Specialized Construction and increased research cost to 2200
+	-Increased research cost for the Anchor to 1200
+	-Moved the Grappling Hook to Advanced MetalWorks and increases research cost to 13000
+	-Moved the Electro-Magnet to Experimental Electrics and increased research cost to 17000
+	-Moved the Hook Support to Experimental Electrics and increased research cost to 11000
+	-Moved the Pipe end point to Meta-Materials and increased research cost to 9500
+	-Increased research cost for the Ground pylon to 750
+	-Moved the Strut end point to Composites and increased research cost to 12500
+	-Moved the Horizontal stack winch (0.5m) to Actuators and increased research cost to 5500
+	-Moved the Vertical stack winch (0.5m) to Actuators and increased research cost to 5500
+	-Moved the Horizontal radial winch (0.5m) to Nanolathing and increased research cost to 14500
+	-Moved the Vertical radial winch (0.5m) to Nanolathing and increased research cost to 14500
+-SAS has been rebalanced
+	-All stock parts with SAS have received a base reduction of 75%
+	-Some parts have had this number further altered to change the original balance of SAS among command pods
+-Mk1 Cockpit, Mk1 Inline Cockpit, and PPD-12 Cupola Module have had SAS removed
+
 v .4
 -Added several part rescales
 	-Added Smaller Gear Bay
