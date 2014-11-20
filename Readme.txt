@@ -105,11 +105,13 @@ available to you, even if it's now moved to a node you've not researched.  This 
 the persistence file saves the parts you've unlocked and can only be remedied by manually changing the
 persistence file or starting a new game.
 
-This rebalance builds on code and concepts from Science Revisted by Captrobau (http://forum.kerbalspaceprogram.com/threads/65033-Science-Revisited-New-and-improved-ways-to-do-science-1-3-1)
+This rebalance builds on code and concepts from Science Revisted by Captrobau (http://forum.kerbalspaceprogram.com/threads/65033)
 
 The Following mods have had compatability configs written:
 
 Deadly Reentry Continued - http://forum.kerbalspaceprogram.com/threads/54954
+DMagic Orbital Science - http://forum.kerbalspaceprogram.com/threads/64972
+Kerbal Attachment System - http://forum.kerbalspaceprogram.com/threads/92514
 Procedural Fairings - http://forum.kerbalspaceprogram.com/threads/39512
 Remote Tech - http://forum.kerbalspaceprogram.com/threads/83305
 Stock ReBalance - http://forum.kerbalspaceprogram.com/threads/75272
