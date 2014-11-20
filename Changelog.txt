@@ -1,3 +1,10 @@
+v .41a
+-Science Rebalance for DMagic Orbital Science
+	-All experiments now follow the global multiplier for BaseValue, currently 60%
+	-All experiments except Solar Particle Analysis are now governed by global value for transmitting "sensor" experiments, currently 100%
+	-Solar Particle Analysis is now governed by the global value for tranmitting "sample return" experiments, currently 15%
+	-DM Versions of stock science experiments are now governed by their respective global transmit value
+
 v .41
 -Tech Tree Rebalancing for DMagic Orbital Science
 	-Moved the Magnetometer Boom to start
@@ -31,7 +38,7 @@ v .41
 	-Some parts have had this number further altered to change the original balance of SAS among command pods
 -Mk1 Cockpit, Mk1 Inline Cockpit, and PPD-12 Cupola Module have had SAS removed
 
-v .4
+v .40
 -Added several part rescales
 	-Added Smaller Gear Bay
 	-Added 1.25m Launch Escape System
