@@ -1,22 +1,20 @@
-Kerbal Space and Atmospheric Exploration Agency Tech Tree and Science Rebalance
+Kerbal Space and Atmospheric Exploration Agency Tech Tree and Game Rebalance
 
 So what is it?
 
 This is a set of Module Manager configs designed to make the game a bit more challenging and to change the
-tech tree progress into something more loosely realistic, starting with aircraft and introducing probes earlier
-than stock. You can skip the aircraft portion if that's no fun for you, all the basic rocket stuff comes within
-the first two tiers and you can easily acquire the science required without ever leaving the runway/launchpad.
-It's cheaty, but I won't tell anyone.
+tech tree progress into something more loosely realistic, starting with manned atmospheric flight and small,
+unkerbaled, suborbital rockets.
 
 I also wanted to match parts to nodes in a more logical way. Many parts have moved from their stock tiers and
 nodes or stayed in the same tier but have changed nodes. Some nodes also have very few parts or only one when
 not fleshed out with mods. This wasn't originally intentional, but I decided it made sense. Some breakthroughs
 in science have very specific implications, some are very broad and far reaching.
 
-I also wanted to make use of the extra nodes at the end of the tree. If you're not aware, Squad has included
+I wanted to make use of the extra nodes at the end of the tree as well. If you're not aware, Squad has included
 nodes at the end of the tree that require 1000 science to research, they do not show in R&D unless there's
-actually parts assigned to them. Only the RAPIER engine is up in the this tier if you're running only stock
-parts. As more mod configs are added, the top tier should flesh out more.
+actually parts assigned to them.  Not all of these nodes are used if you have just stock, but they continue to
+flesh out as more mods are added.
 
 Science has also been rebalanced a bit, but total science values are mostly no longer affected by this mod as
 Squad added the functionality to change this in game with the difficulty settings introduced in .25. You get a
@@ -40,7 +38,22 @@ ostensibly using to pilot the probe.
 
 All the non shielded solar panels are no longer retractable to help give some differentiation. All solar panels
 using the default squad module will now also use the curve created by CaptRobau in Science Revisited to follow
-the inverse-square law
+the inverse-square law.
+
+SAS systems have been rebalanced to be far less powerful than their stock torque values.  This is to bring them
+more in line with the real life use of SAS systems.  Currently this is a pretty basic across the board reduction
+by 75% with a few specific tweaks here and there.  For instance, the 2.5m SAS part was hugely overpowered and so
+has been further reduced.
+
+Certain command parts have been deemed only for atmospheric flight.  If you only have stock parts this means only
+the Mk1 series of cockpits.  These parts have had SAS removed entirely.  If you're using a life support mod these
+parts will also not have any innate capacity to store the relevant resources.  If you're using Deadly Reentry
+these parts will not have heat shielding.
+
+This mod also adds several parts that are rescales and in a few cases, repurposing, of stock parts.  This is mostly
+to help fill gaps at the begining of the tree by adding more .625m parts.  Compatibility configs for mods that
+provide similar parts will come in time and if you're using them instead, the parts created specifically for
+filling this size gap are all in Parts/0625m Parts and the folder can be deleted.
 
 Additional Info
 
@@ -58,17 +71,16 @@ display name.
 I started this without having any idea about Stupid_Chris' Stock ReBalance project, and originally had some of
 the same things implemented alongside the tech tree rebalance.  This included solar panel changes, rebalancing
 of probe cores, and a few other odds and ends.  As I was looking at getting deeper down the rabbit hole into
-rebalancing many more parts, I found SRB which prompted me to remove most of that stuff from the mod.  I've
-since decided to back away from the idea that this is designed specifically with SRB in mind and re-implemented
-some of those original ideas.
+rebalancing many more parts, I found SRB which prompted me to remove most of that stuff from the mod and start
+working specifically with SRB in mind.  I've since decided to back away from that idea and re-implemented many
+of these original balance changes as well as expanded further.  
 
 Because of MM run order, anything SRB does should run after me, so if your using SRB changes to the same
-properties *should* take precedence over mine.  As it's not currently updated for .25 yet and I probably won't
-be running it myself any longer, I'd love some feedback on whether this actually ends up being the case, or if
-I need to come up with a special patch or set of instructions for use in conjunction with SRB.  For the same
-reasons, if you want to use SRB, but want my values for antenna transmission and such you'll need to delete the
-relevant patches from SRB.  When SRB updates to .25 I'll probably take a look at it and make a patch to handle
-this instead.
+properties *should* take precedence over mine.  For the same reason, if you want to use SRB, but want my values
+for say, SAS, you'd need to delete the relevant patches from SRB.  The compatibility for SRB provided with this
+mod ONLY moves SRB's part rescales to appropriate nodes.  In the future I might offer a patch to run after SRB
+and convert conflicting changes back to KSAEA values, but for now the only support I'm willing to commit in this
+regard is assisting you in which parts of SRB to delete to get KSAEA values.
 
 Why?
 
@@ -102,8 +114,10 @@ INSTALLATION
 
 NOTE: If you're using this with an in progress save, any part you have already researched will still be
 available to you, even if it's now moved to a node you've not researched.  This has to do with the way
-the persistence file saves the parts you've unlocked and can only be remedied by manually changing the
-persistence file or starting a new game.
+the persistence file saves the parts you've unlocked and can be remedied by manually changing the
+persistence file or starting a new game.  Deleting the moved parts, loading your save and causing it to
+save a new tech tree without those parts, leaving the game, and restoring the parts, should also move
+things to their proper place.
 
 This rebalance builds on code and concepts from Science Revisted by Captrobau (http://forum.kerbalspaceprogram.com/threads/65033)
 
@@ -114,6 +128,7 @@ DMagic Orbital Science - http://forum.kerbalspaceprogram.com/threads/64972
 Kerbal Attachment System - http://forum.kerbalspaceprogram.com/threads/92514
 Procedural Fairings - http://forum.kerbalspaceprogram.com/threads/39512
 Remote Tech - http://forum.kerbalspaceprogram.com/threads/83305
+Snacks! Kerbal Simplified Life Support - http://forum.kerbalspaceprogram.com/threads/90841
 Stock ReBalance - http://forum.kerbalspaceprogram.com/threads/75272
 TAC Life Support - http://forum.kerbalspaceprogram.com/threads/40667
 
