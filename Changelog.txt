@@ -1,3 +1,93 @@
+v .42
+-Tech Tree Rebalancing for IFILS
+	-Moved the IFI Life Support Tank to Advanced Construction
+	-Moved the IFI Life Support Tank to Advanced MetalWorks
+-Life  Support Rebalancing for IFILS
+	-Removed IFILS life support resources from the Mk1 Cockpit
+	-Removed IFILS life support resources from the Mk1 Inline Cockpit
+-Tech Tree Rebalancing for ECLSS
+	-Moved the ECLSS Oxygen Small Tank to Advanced Construction
+	-Moved the ECLSS Dioxide Small Tank to Advanced Construction
+	-Moved the ECLSS Oxygen Big Tank to Advanced Metalworks
+	-Moved the ECLSS Oxygen Big Tank to Advanced MetalWorks
+	-Moved the ECLSS Oxygen Regenerator to Specialized Electrics
+-Life  Support Rebalancing for ECLSS
+	-Removed ECLSS life support resources from the Mk1 Cockpit
+	-Removed ECLSS life support resources from the Mk1 Inline Cockpit
+-Life Support Rebalancing for Snacks!
+	-Removed Snacks life support resources from the Mk1 Cockpit
+	-Removed Snacks life support resources from the Mk1 Inline Cockpit
+	-Removed Snacks life support resources from the EAS-1 External Command Seat
+	-Removed Snacks life support resources from the Probododyne RoveMate
+-Life Support Rebalancing for TACLS
+	-Removed TACLS life support resources from the Mk1 Cockpit
+	-Removed TACLS life support resources from the Mk1 Inline Cockpit
+	-Removed TACLS life support resources from the EAS-1 External Command Seat
+	-Removed TACLS MFT/RF compatible life support resources from the Mk1 Cockpit
+	-Removed TACLS MFT/RF compatible life support resources from the Mk1 Inline Cockpit
+-New part, SKGU Probe Core Added
+	-Heavy, high power consumption probe core with no SAS
+	-Researched in the starting node
+-TacLifeSupportTechTreeRebalance.cfg changed to TACLSTechTreeRebalance.cfg
+-Science and Tech Tree Rebalancing for new DMagic Parts
+	-New experiments (Albedo/X-Ray) follow the global multiplier for BaseValue
+	-New experiments (Albedo/X-Ray) are now governed by the global value for transmitting "sensor" experiments
+	-Moved the Micro Goo Containment Pod to Meta-Materials
+	-Moved the Dynamic Albedo of Neutrons to Field Science
+	-Fixed error with Solar Particle Analysis transmission value, Solar Particle Analysis should now have globalSampleXmitDataScalar correctly applied
+-Tech Tree Rebalancing for Universal Storage
+	-Moved the Universal Storage Quadcore to General Construction
+	-Moved the Universal Storage Hexacore to Specialized Construction
+	-Moved the Universal Storage Octocore to Advanced MetalWorks
+	-Moved the Universal Storage Safety Decoupler (small) to General Construction
+	-Moved the Universal Storage Safety Decoupler (Large) to Composites
+	-Moved the Universal Storage Science Bay to General Construction
+	-Moved the Universal Storage Alkaline Fuel Cell to Advanced Electrics
+	-Moved the Universal Storage Elektron to Electronics
+	-Moved the Universal Storage Hydrogen Block to Specialized Construction
+	-Moved the Universal Storage Oxygen Block to Specialized Construction
+	-Moved the Universal Storage Water Tank to Specialized Construction
+	-Moved the Universal Storage Radial Oxygen Tank to Advanced Construction
+-Tech Tree Rebalancing for Universal Storage ECLSS Pack
+	-Moved the Universal Storage Carbon Dioxide Block to Specialized Construction
+-Tech Tree Rebalancing for Universal Storage IFI Life Support Pack
+	-Moved the Universal Storage IFI Lifesupport to Specialized Construction
+-Tech Tree Rebalancing for Universal Storage Kerbal Attachment System Pack
+	-Moved the Universal Storage KAS Container to Specialized Construction
+	-Moved the Universal Storage EVA-X to Field Science
+-Tech Tree Rebalancing for Universal Storage Snacks! Life Support Pack
+	-Moved the Universal Storage Snackbox to Specialized Construction
+-Tech Tree Rebalancing for Universal Storage TAC Life Support Pack
+	-Moved the Universal Storage Water Purifier to Specialized Electrics
+	-Moved the Universal Storage Carbon Dioxide Block to Specialized Construction
+	-Moved the Universal Storage Food Bag to Specialized Construction
+	-Moved the Universal Storage Waste Tank to Specialized Construction
+	-Moved the Universal Storage Greywater Tank to Specialized Construction
+-Tech Tree Rebalancing for DMagic Orbital Science Universal Storage parts
+	-Moved the Univ. Storage - Mystery Goo Containment to Precision Engineering
+	-Moved the Univ. Storage - SC-9001 Science Jr. to Composites
+	-Moved the Univ. Storage - Magnetometer Boom to General Construction
+	-Moved the Univ. Storage - RPWS Antenna to Precision Engineering
+	-Moved the US - Orbital Telescope to Meta-Materials
+	-Moved the US - Solar Particle Collector to Advanced Science Tech
+	-Moved the Univ. Storage - Atmospheric Sensor to Electronics
+	-Moved the Univ. Storage - PresMat / 2Hot to General Construction
+-1.25m Launch Escape System heatProduction changed to 400
+-All KSAEA parts now have compatability patches for Deadly Reentry
+	-Patches are at the end of each part's config
+	-MX-A Adapter maxTemp adjusted to 1250 when DR is present
+	-MX-100 Fuel Tank maxTemp adjusted to 1450 when DR is present
+	-MX-50 Fuel Tank maxTemp adjusted to 1450 when DR is present
+	-MX-25 Fuel Tank maxTemp adjusted to 1450 when DR is present
+	-MX-12 Fuel Tank maxTemp adjusted to 1450 when DR is present
+	-MX Nose Cone maxTemp adjusted to 1450; full coating, 25% reflective heat shield added when DR is present
+	-MX-S55 "Firecracker" 0.625m Solid Fuel Booster maxTemp adjusted to 1400; heatProduction adjusted to 175 when DR is present
+	-MX-S105 "Mini-BACC" 0.625 Solid Fuel Booster maxTemp adjusted to 1500; heatProduction adjusted to 225 when DR is present
+	-SKGU Probe Core maxTemp adjusted to 1100 when DR is present
+	-Smaller Gear Bay maxTemp adjusted to 1800; full coating, 25% reflective heat shield added when DR is present
+	-MX-LC Launch Stability System maxTemp adjusted to 2500 when DR is present
+	-1.25m Launch Escape System maxTemp adjusted to 1900; heatProduction adjusted to 275 when DR is present
+
 v .41a
 -Science Rebalance for DMagic Orbital Science
 	-All experiments now follow the global multiplier for BaseValue, currently 60%

@@ -47,13 +47,12 @@ has been further reduced.
 
 Certain command parts have been deemed only for atmospheric flight.  If you only have stock parts this means only
 the Mk1 series of cockpits.  These parts have had SAS removed entirely.  If you're using a life support mod these
-parts will also not have any innate capacity to store the relevant resources.  If you're using Deadly Reentry
-these parts will not have heat shielding.
+parts will also not have any innate capacity to store the relevant resources.
 
 This mod also adds several parts that are rescales and in a few cases, repurposing, of stock parts.  This is mostly
 to help fill gaps at the begining of the tree by adding more .625m parts.  Compatibility configs for mods that
 provide similar parts will come in time and if you're using them instead, the parts created specifically for
-filling this size gap are all in Parts/0625m Parts and the folder can be deleted.
+filling this size gap are all in Parts/0625m Parts and you can feel free to delete them.
 
 Additional Info
 
@@ -123,13 +122,16 @@ This rebalance builds on code and concepts from Science Revisted by Captrobau (h
 
 The Following mods have had compatability configs written:
 
+Asmi's ECLSS Revived - http://forum.kerbalspaceprogram.com/threads/93328
 Deadly Reentry Continued - http://forum.kerbalspaceprogram.com/threads/54954
 DMagic Orbital Science - http://forum.kerbalspaceprogram.com/threads/64972
+Interstellar Flight Inc. Life Support - http://forum.kerbalspaceprogram.com/threads/92011
 Kerbal Attachment System - http://forum.kerbalspaceprogram.com/threads/92514
 Procedural Fairings - http://forum.kerbalspaceprogram.com/threads/39512
 Remote Tech - http://forum.kerbalspaceprogram.com/threads/83305
 Snacks! Kerbal Simplified Life Support - http://forum.kerbalspaceprogram.com/threads/90841
 Stock ReBalance - http://forum.kerbalspaceprogram.com/threads/75272
 TAC Life Support - http://forum.kerbalspaceprogram.com/threads/40667
+Universal Storage - http://forum.kerbalspaceprogram.com/threads/75129
 
 License: CC BY NC SA
