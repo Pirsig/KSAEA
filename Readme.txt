@@ -50,7 +50,7 @@ the Mk1 series of cockpits.  These parts have had SAS removed entirely.  If you'
 parts will also not have any innate capacity to store the relevant resources.
 
 This mod also adds several parts that are rescales and in a few cases, repurposing, of stock parts.  This is mostly
-to help fill gaps at the begining of the tree by adding more .625m parts.  Compatibility configs for mods that
+to help fill gaps at the beginning of the tree by adding more .625m parts.  Compatibility configs for mods that
 provide similar parts will come in time and if you're using them instead, the parts created specifically for
 filling this size gap are all in Parts/0625m Parts and you can feel free to delete them.
 

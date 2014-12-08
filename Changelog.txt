@@ -73,7 +73,7 @@ v .42
 	-Moved the Univ. Storage - Atmospheric Sensor to Electronics
 	-Moved the Univ. Storage - PresMat / 2Hot to General Construction
 -1.25m Launch Escape System heatProduction changed to 400
--All KSAEA parts now have compatability patches for Deadly Reentry
+-All KSAEA parts now have compatibility patches for Deadly Reentry
 	-Patches are at the end of each part's config
 	-MX-A Adapter maxTemp adjusted to 1250 when DR is present
 	-MX-100 Fuel Tank maxTemp adjusted to 1450 when DR is present
