@@ -98,10 +98,15 @@ to learn anything extra really.
 
 Taking this approach of not using any plugins outside MM itself does set certain limits. I can't modify EVA
 kerbals for example, which is why they still transmit surface samples at the stock %. Though I've decided in
-my head that the extra data is the kerbal's description of the sample . I also can't change the research values
+my head that the extra data is the kerbal's description of the sample. I also can't change the research values
 for nodes in the tree or add new nodes, but honestly this just causes more room for compatibility issues. In
 the end, it creates different approaches to a similar problem many of us have with not being satisfied with the
 current tech/science setup and it's up to you which approach you like best.
+
+Known Bugs
+
+-The MX-LC Launch Stability system does not display correctly the first time it is used in a play session.  This
+happens the first time of use for every play session, but does not affect function. 
 
 Module Manager (http://forum.kerbalspaceprogram.com/threads/55219-Module-Manager) is required for this mod
 to function and is included in the download.  Do not extract it if you have a more recent version.
@@ -127,8 +132,11 @@ Deadly Reentry Continued - http://forum.kerbalspaceprogram.com/threads/54954
 DMagic Orbital Science - http://forum.kerbalspaceprogram.com/threads/64972
 Interstellar Flight Inc. Life Support - http://forum.kerbalspaceprogram.com/threads/92011
 Kerbal Attachment System - http://forum.kerbalspaceprogram.com/threads/92514
+MechJeb - http://forum.kerbalspaceprogram.com/threads/12384
 Procedural Fairings - http://forum.kerbalspaceprogram.com/threads/39512
+RealChute Parachute Systems - http://forum.kerbalspaceprogram.com/threads/57988
 Remote Tech - http://forum.kerbalspaceprogram.com/threads/83305
+SCANsat - http://forum.kerbalspaceprogram.com/threads/80369
 Snacks! Kerbal Simplified Life Support - http://forum.kerbalspaceprogram.com/threads/90841
 Stock ReBalance - http://forum.kerbalspaceprogram.com/threads/75272
 TAC Life Support - http://forum.kerbalspaceprogram.com/threads/40667

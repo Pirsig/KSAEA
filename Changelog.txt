@@ -1,3 +1,47 @@
+v .43
+-Tech Tree Rebalancing for SCANsat
+	-Moved the SCAN RADAR Altimetry Sensor to Space Exploration
+	-Moved the SCAN Been There Done That® to Advanced Science Tech
+-Tech Tree Rebalancing for Real Chute Parachute Systems
+	-Moved the RealChute Cone Chute to Advanced Landing and increased research cost to 7500
+	-Moved the RealChute Radial Chute to Advanced Landing
+	-Moved the RealChute Stack Chute to Composites
+	-Moved the RealChute Double Chute to Aerospace Tech
+-Tech Tree Rebalancing for Mech Jeb
+	-Moved the Rover Autopilot upgrade to Specialized Control
+	-Moved the Ascent Guidance upgrade to Advanced Flight Control
+	-Moved the Docking Guidance upgrade to Specialized Control
+-SKGU Probe Core Electric Charge increased, consumption rate decreased
+	-maxAmount increased to 100
+	-rate decreased to 0.1
+-MK2 Drone Core SAS torque has been decreased to .75
+-Probodobodyne OKTO SAS torque is now equal to that of the Probodobodyne HECS
+-The new MK3 Cockpit has had SAS rebalanced and is now governed by the global reduction
+	-Roll Torque is now equal to Pitch and Yaw Torque
+-New Aerodynamic parts for small rockets, includes FAR & DR support
+	-Structural Wing Type E added, rescale of structuralWing4
+	-Elevon 6 added, rescale of elevon4
+-Tech Tree Rebalancing for new stock parts
+	-Moved the Mk3 Cockpit to Electronics
+	-Moved the Mk3 Passenger Module to Advanced MetalWorks
+	-Moved the Mk3 Cargo Bay CRG-25 to Advanced Metalworks
+	-Moved the Mk3 Cargo Bay CRG-50 to Advanced Metalworks
+	-Moved the Mk3 Cargo Bay CRG-100 to Advanced Metalworks
+	-Moved the C7 Brand Adapter - 2.5m to 1.25m to Specialized Construction
+	-Moved the C7 Brand Adapter Slanted - 2.5m to 1.25m to Specialized Construction
+	-Moved the 2.5m to Mk2 Adapter to Meta-Materials
+	-Moved the Mk3 to Mk2 Adapter to Advanced Metalworks
+	-Moved the Mk3 to 2.5m Adapter to Advanced Metalworks	
+	-Moved the Mk3 to 2.5m Adapter Slanted to Advanced Metalworks
+	-Moved the Mk3 to 3.75m Adapter to Advanced Metalworks
+	-Moved the Mk3 Monopropellant Tank to Advanced Metalworks
+	-Moved the Mk3 Liquid Fuel Fuselage Short to Advanced Metalworks
+	-Moved the Mk3 Liquid Fuel Fuselage to Advanced Metalworks
+	-Moved the Mk3 Liquid Fuel Fuselage Long to Advanced Metalworks
+	-Moved the Mk3 Rocket Fuel Fuselage Short to Advanced Metalworks
+	-Moved the Mk3 Rocket Fuel Fuselage to Advanced Metalworks
+	-Moved the Mk3 Rocket Fuel Fuselage Long to Advanced Metalworks
+
 v .42
 -Tech Tree Rebalancing for IFILS
 	-Moved the IFI Life Support Tank to Advanced Construction
